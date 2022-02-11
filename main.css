@@ -1,0 +1,99 @@
+/* Background */
+body {
+    background-image: url('Images/header.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;}
+
+/* Logo spacing */
+logo {
+    margin-bottom: 0%;
+    margin-top: 0%;}
+/* Padding for all text */
+.content_padding {
+    color: rgb(0, 0, 0);
+    background-image: linear-gradient(to top, rgba(255, 0, 0, 0) 0%, rgba(255, 255, 255, 0.774)20%, rgba(255, 255, 255, 0.767)80%, rgba(255, 0, 0, 0) 100%);
+    background-size: cover;
+    max-height: cover;
+    text-shadow: None;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    font-family: "Helvetica";
+    font-weight: 5px;
+    font-size:90%;
+    padding: 1% 4%;}
+/* Flex justification for content  */
+.content {
+    color: #000000;
+    display: flex;
+    justify-content: space-evenly;}
+/* Extra white background gradient for portfolio page only (to help with visability) */
+.gcontent {
+    background-image: linear-gradient(to top, rgba(255, 0, 0, 0) 0%, rgba(255, 255, 255, 0.774)20%, rgba(255, 255, 255, 0.774)80%, rgba(255, 0, 0, 0) 100%);
+    background-size: cover;}
+/* Flex justification for h3 headers */
+.small_headers {
+    display: flex;
+    justify-content: space-evenly;}
+
+/* Consistent text styles     */
+h3 {
+    color: white;
+    text-shadow: -1px -1px 0 rgb(0, 0, 0), 1px -1px 0 rgb(0, 0, 0), -1px 1px 0 rgb(0, 0, 0), 1px 1px 0 rgb(0, 0, 0);}
+h1 {
+    color: rgb(255, 255, 255);
+    text-shadow: -3px -3px 0 rgb(255, 0, 0), 3px -3px 0 rgb(229, 255, 0), -3px 3px 0 rgb(0, 60, 255), 3px 3px 0 rgb(255, 0, 234);
+    margin-top: 0%;
+    margin-bottom: 0%;
+    font-family: "Modak",cursive;
+    font-weight: lighter;
+    font-size:280%;}
+h2 {
+    color: rgba(255, 255, 255, 0.938);
+    background-color:rgba(0, 0, 0, 0.123);
+    text-shadow: -1px -1px 0 rgb(0, 0, 0), 1px -1px 0 rgb(0, 0, 0), -1px 1px 0 rgb(0, 0, 0), 1px 1px 0 rgb(0, 0, 0);
+    margin-top: 0%;
+    margin-bottom: 1%;
+    font-family: "Ubuntu Condensed","serif";
+    font-weight: lighter;
+    font-size:180%;}
+p {
+    padding-left: 3%;}
+
+/* Navigation bar */
+.navbar :hover {
+    color: rgba(255, 255, 255, 0.986);
+    background-color:rgba(255, 255, 255, 0.123);
+    text-shadow: -1px -1px 0 rgb(0, 0, 0), 1px -1px 0 rgb(0, 0, 0), -1px 1px 0 rgb(0, 0, 0), 1px 1px 0 rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 10px 16px;
+    text-align: center;
+    display: inline-block;}
+.navbar a {
+    color: rgba(255, 255, 255, 0.938);
+    background-color:rgba(0, 0, 0, 0.123);
+    text-shadow: -1px -1px 0 rgb(0, 0, 0), 1px -1px 0 rgb(0, 0, 0), -1px 1px 0 rgb(0, 0, 0), 1px 1px 0 rgb(0, 0, 0);
+    margin-top: 0%;
+    margin-bottom: 1%;
+    font-family: "Ubuntu Condensed","serif";
+    font-weight: lighter;
+    font-size:110%;
+    text-decoration: none;
+    padding: 10px 16px;
+    text-align: center;
+    display: inline-block;}
+
+/* Social media buttons */
+.fa {
+padding: 10px;
+font-size: 30px;
+width: 30px;
+text-align: center;
+text-decoration: none;}
+.fa:hover {
+opacity: 0.7;}
+.fa-instagram {
+background: #d71cf0;
+color: white;}
+.fa-deviantart {
+background: #00661f;
+color: white;}
